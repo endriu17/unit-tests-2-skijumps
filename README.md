@@ -1,3 +1,3 @@
-## Units tests
+## Unit tests
 
 ## Mocha, JS.
