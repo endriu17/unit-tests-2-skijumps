@@ -11,7 +11,6 @@ const calculateDistancePoints = (distance, hillSize, kPoint) => {
         return 'We only have three types of hills...'
     }
   };
-  console.log(calculateDistancePoints(208.5, 'mammoth', 200))
   module.exports = calculateDistancePoints;
   
   

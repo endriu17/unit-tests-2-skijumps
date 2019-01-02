@@ -9,5 +9,4 @@ const calculateStylePoints = (styleNotes) => {
       return 'Five judges must give their notes...'
     }
   };
-  console.log(calculateStylePoints([17.5, 17.5, 17.5, 17.5, 17]));
   module.exports = calculateStylePoints;

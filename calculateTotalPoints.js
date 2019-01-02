@@ -8,6 +8,4 @@ const calculateTotalPoints = (distance, hillSize, kPoint, styleNotes, windFactor
   return Math.round(((distancePoints + stylePoints + windFactor + gateFactor)/0.5)*0.5);
 }
 
-console.log(calculateTotalPoints(208.5, 'mammoth', 200, [17.5, 17.5, 17.5, 17.5, 17], 0, -5.0));
-
 module.exports = calculateTotalPoints;
